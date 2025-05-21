@@ -1,50 +1,85 @@
-# Welcome to your Expo app 👋
+# Fokus
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Screenshot da Aplicação](./assets/images/screenshot.png)
 
-## Get started
+Aplicativo desenvolvido durante a formação da Alura React Native: Desenvolva seu primeiro app, combinando um timer Pomodoro com uma lista de tarefas integrada.
 
-1. Install dependencies
+## Funcionalidades
 
+### Timer Pomodoro
+
+- **25 minutos** de foco
+- **5 minutos** de pausa curta
+- **15 minutos** de pausa longa
+
+### Gerenciamento de Tarefas
+
+- **Adicionar** novas tarefas
+- **Editar** tarefas existentes
+- **Excluir** tarefas
+- **Marcar/desmarcar** como concluídas
+
+## Tecnologias Utilizadas
+
+- **React Native** (Framework mobile)
+- **Expo** (Plataforma para desenvolvimento)
+- **React Navigation** (Navegação entre telas)
+- **AsyncStorage** (Armazenamento local)
+- **React Native Reanimated** (Animações fluidas)
+- **React Native SVG** (Renderização de SVG)
+
+## Como Executar
+
+### Pré-requisitos
+
+- Node.js (versão 16 ou superior)
+- Expo CLI instalado globalmente (`npm install -g expo-cli`)
+
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/fernanda-vaz/react-native-fokus.git
+   ```
+2. Acesse a pasta do projeto
+   ```bash
+   cd react-native-fokus
+   ```
+3. Instale as dependências
    ```bash
    npm install
+   # ou, se usar Yarn:
+   yarn install
    ```
-
-2. Start the app
-
+4. Inicie o servidor de desenvolvimento
    ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+   expo start
+   # ou
+   npm start
+   # ou
+   yarn start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+5. Execute no dispositivo ou emulador
+   - 📱 **Dispositivo físico**:
+     - Baixe o app **Expo Go** na Play Store ou App Store
+     - Escaneie o QR code exibido no terminal
+   - 🤖 **Emulador Android**:
+     - Tenha o Android Studio instalado e um emulador configurado
+     - Pressione `a` no terminal após iniciar o servidor
+   - 🍎 **Emulador iOS (apenas Mac)**:
+     - Tenha o Xcode instalado
+     - Pressione `i` no terminal após iniciar o servidor
 
-## Learn more
+## 🛠️ Scripts Úteis
 
-To learn more about developing your project with Expo, look at the following resources:
+| Comando               | Descrição                          |
+|-----------------------|-----------------------------------|
+| `expo start`          | Inicia o servidor de desenvolvimento |
+| `expo android`        | Executa no emulador Android       |
+| `expo ios`            | Executa no emulador iOS (Mac)     |
+| `expo run:android`    | Build e execução direta no Android |
+| `expo run:ios`        | Build e execução direta no iOS    |
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Licença
+Este projeto foi desenvolvido como parte da formação "React Native: Desenvolva seu primeiro app" da Alura. O código é disponibilizado para fins educacionais.
