@@ -1,25 +1,25 @@
-# Fokus
+# Projeto Fokus
 
 ![Screenshot da Aplicação](./assets/images/screenshot.png)
 
 Aplicativo desenvolvido durante a formação da Alura React Native: Desenvolva seu primeiro app, combinando um timer Pomodoro com uma lista de tarefas integrada.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
-### Timer Pomodoro
+### ⏱️ Timer Pomodoro
 
 - **25 minutos** de foco
 - **5 minutos** de pausa curta
 - **15 minutos** de pausa longa
 
-### Gerenciamento de Tarefas
+### ☑️ Gerenciamento de Tarefas
 
 - **Adicionar** novas tarefas
 - **Editar** tarefas existentes
 - **Excluir** tarefas
 - **Marcar/desmarcar** como concluídas
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - **React Native** (Framework mobile)
 - **Expo** (Plataforma para desenvolvimento)
@@ -28,14 +28,14 @@ Aplicativo desenvolvido durante a formação da Alura React Native: Desenvolva s
 - **React Native Reanimated** (Animações fluidas)
 - **React Native SVG** (Renderização de SVG)
 
-## Como Executar
+## 📥 Como Executar
 
-### Pré-requisitos
+### ✅ Pré-requisitos
 
 - Node.js (versão 16 ou superior)
 - Expo CLI instalado globalmente (`npm install -g expo-cli`)
 
-### Instalação
+### 🔧 Instalação
 
 1. Clone o repositório:
    ```bash
@@ -58,7 +58,7 @@ Aplicativo desenvolvido durante a formação da Alura React Native: Desenvolva s
    npm start
    # ou
    yarn start
-```
+   ```
 
 5. Execute no dispositivo ou emulador
    - 📱 **Dispositivo físico**:
@@ -81,5 +81,5 @@ Aplicativo desenvolvido durante a formação da Alura React Native: Desenvolva s
 | `expo run:android`    | Build e execução direta no Android |
 | `expo run:ios`        | Build e execução direta no iOS    |
 
-## Licença
+## 📝  Licença
 Este projeto foi desenvolvido como parte da formação "React Native: Desenvolva seu primeiro app" da Alura. O código é disponibilizado para fins educacionais.
